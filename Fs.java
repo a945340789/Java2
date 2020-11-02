@@ -7,17 +7,17 @@ public class Fs {
 public void show() {
 	Students a=new Students();
 	 Teacher b=new Teacher();
-	 Course c=new Course("³ÌĞòÉè¼Æ»ù´¡");
-	 SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//ÉèÖÃÈÕÆÚ¸ñÊ½
+	 Course c=new Course("ç¨‹åºè®¾è®¡åŸºç¡€");
+	 SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//è®¾ç½®æ—¥æœŸæ ¼å¼
 	 	a.setNumber("20202546240");	
 		a.setName("szh");
 		a.setSex("man");
 		b.setNumber("202055534");
-		b.setName("°×ÀÏÊ¦");
-		b.setInstruction("´óÑ§Ó¢Óï");
+		b.setName("ç™½è€å¸ˆ");
+		b.setInstruction("å¤§å­¦è‹±è¯­");
 		c.setNumber("102");
-		c.setPalce("½ÌÑ§Â¥16#402");
-		c.setTeacher("Íõ´ï");
+		c.setPalce("æ•™å­¦æ¥¼16#402");
+		c.setTeacher("ç‹è¾¾");
 		int id = 0;
 		String mName = a.getName();
 		String mNumber = a.getNumber();
@@ -37,7 +37,7 @@ public void show() {
 		coursenumber =c.getNumber();
 		courseplace =c.getPalce();
 		courseteacher=c.getTeacher();
-		System.out.println("Ñ§ÉúÑ¡¿ÎÏµÍ³");
+		System.out.println("å­¦ç”Ÿé€‰è¯¾ç³»ç»Ÿ");
 		System.out.println("Serial number is : " + mNumber);
 		System.out.println("Name is : " + mName);
 		System.out.println("Gerder is :" + mSex);
@@ -45,10 +45,10 @@ public void show() {
 		String mClass = a.getClasss();
 	    System.out.println("elective is :" + mClass);
 		System.out.println("lecture teacher code is :"+teachernumber);
-		System.out.println("lecture teacher is £º"+teachername);
+		System.out.println("lecture teacher is ï¼š"+teachername);
 		System.out.println("place location is :"+teacherclass);
 		System.out.println("The course number :"+coursenumber);
-        System.out.println("The course name :"+c); //¿Î³ÌÃû
+        System.out.println("The course name :"+c); //è¯¾ç¨‹å
 		System.out.println("Course plance :"+courseplace);
 		System.out.println("sclooltime is :"+df.format(new Date()));
 		System.out.println("lecture teacher name is :"+courseteacher);
@@ -56,6 +56,6 @@ public void show() {
        
 		c.xuanke(id);
         System.out.println("------------------------------------------");
-	    c.duike(id);
+	    c.tuike(id);
 }
 }
