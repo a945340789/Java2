@@ -69,7 +69,7 @@ class Teacher extends Personer{
 	
 }
 class Course  {
-	String Name=null;//¿Î³ÌÃû
+	String Name=null;//è¯¾ç¨‹å
     int arress;
 	String time;
 	String number;
@@ -109,45 +109,45 @@ class Course  {
 		String course;
 		String place;
 		String time;
-		System.out.println("ÕÅÈı  "+"ÄĞ  "+18);
-        System.out.println("1:ÓïÎÄ  " + "2:java  " + "3:¼ÆËã»ú×é³ÉÔ­Àí  "+"4:ps½Ì³Ì");
-		System.out.println("ÇëÊäÈëÄãÑ¡ĞŞµÄ¿Î³Ì±àºÅ");
+		System.out.println("å¼ ä¸‰  "+"ç”·  "+18);
+        System.out.println("1:è¯­æ–‡  " + "2:java  " + "3:è®¡ç®—æœºç»„æˆåŸç†  "+"4:psæ•™ç¨‹");
+		System.out.println("è¯·è¾“å…¥ä½ é€‰ä¿®çš„è¯¾ç¨‹ç¼–å·");
 		Scanner sc=new Scanner(System.in);
 		int code=sc.nextInt();
 		
 		switch(code) {
 		case 1:
-			System.out.println("ÄãÑ¡ÔñµÄÊÇ:ÓïÎÄ");
+			System.out.println("ä½ é€‰æ‹©çš„æ˜¯:è¯­æ–‡");
 			break;
 		case 2:
-			System.out.println("ÄãÑ¡ÔñµÄÊÇ:java");
+			System.out.println("ä½ é€‰æ‹©çš„æ˜¯:java");
 			break;
 		case 3:
-			System.out.println("ÄãÑ¡ÔñµÄÊÇ:¼ÆËã»ú×é³ÉÔ­Àí");
+			System.out.println("ä½ é€‰æ‹©çš„æ˜¯:è®¡ç®—æœºç»„æˆåŸç†");
 			break;
 		case 4:
-			System.out.println("ÄãÑ¡ÔñµÄÊÇ:ps½Ì³Ì");
+			System.out.println("ä½ é€‰æ‹©çš„æ˜¯:psæ•™ç¨‹");
 		 default:
-	        System.out.println("Êä³ö´íÎó");break;
+	        System.out.println("è¾“å‡ºé”™è¯¯");break;
 		}
 		
 		
 	}
-	public void duike(int id) {
-		System.out.println("ÍË¿ÎÏµÍ³");
-		System.out.println("1:ÓïÎÄÍË¿Î  " + "2:javaÍË¿Î  " + "3:¼ÆËã»ú×é³ÉÔ­ÀíÍË¿Î  "+"4:ps½Ì³ÌÍË¿Î");
+	public void tuike(int id) {
+		System.out.println("é€€è¯¾ç³»ç»Ÿ");
+		System.out.println("1:è¯­æ–‡é€€è¯¾  " + "2:javaé€€è¯¾  " + "3:è®¡ç®—æœºç»„æˆåŸç†é€€è¯¾  "+"4:psæ•™ç¨‹é€€è¯¾");
 		Scanner sc=new Scanner(System.in);
 		int id1=sc.nextInt();
 		if(id1==5) {
-			System.out.println("ÄúÒªÍËµÄ¿Î³ÌÊÇÓïÎÄ");
+			System.out.println("æ‚¨è¦é€€çš„è¯¾ç¨‹æ˜¯è¯­æ–‡");
 		}else if(id1==6) {
-			System.out.println("ÄúÒªÍËµÄ¿Î³ÌÊÇjava");
+			System.out.println("æ‚¨è¦é€€çš„è¯¾ç¨‹æ˜¯java");
 		}else if(id1==7) {
-			System.out.println("ÄúÒªÍËµÄ¿Î³ÌÊÇ¼ÆËã»ú×é³ÉÔ­Àí");
+			System.out.println("æ‚¨è¦é€€çš„è¯¾ç¨‹æ˜¯è®¡ç®—æœºç»„æˆåŸç†");
 		}else if(id1==8) {
-			System.out.println("ÄúÒªÍËµÄ¿Î³ÌÊÇps½Ì³Ì");
+			System.out.println("æ‚¨è¦é€€çš„è¯¾ç¨‹æ˜¯psæ•™ç¨‹");
 		}else {
-			System.out.println("²Ù×÷´íÎó");
+			System.out.println("æ“ä½œé”™è¯¯");
 		}
 	}
 
